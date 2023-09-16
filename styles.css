@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    font-size: 22px;
+    width: 100%;
+    background-color: #1E2221;
+    box-shadow: 0px 5px 20px #000000 ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 200px;
+    height: 45;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.menu li a:hover {
+    color: #fff;
+    text-decoration: none;
+
+    background: #333;
+    
+}
+
+.hero {
+    display: flex;
+    background-color: #034058;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+
+.hero img {
+
+    max-width: 100%;
+    width: 300px;
+    height: 500px;
+    margin: 2px;
+    padding-bottom: 2px;
+    
+    
+    
+    
+}
+
+.texto {
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: seashell;
+    margin-right: 200px;
+}
+
+.botao {
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 400px;
+    height: 95px;
+    background: #011922;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.botao:hover{
+    background-color:#0c7eaf;
+    transition: background 1s;
+}
